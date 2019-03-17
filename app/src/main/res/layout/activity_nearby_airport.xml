@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.NearbyAirportActivity">
+
+    <ImageView
+        android:id="@+id/airportImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/img_x2" />
+
+    <TextView
+        android:id="@+id/airportNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        />
+
+    <TextView
+        android:id="@+id/airportText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Airport"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/areaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_toRightOf="@+id/airportText"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/airportImage">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/airportCards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AirportFinder</string>
+    <string name="google_maps_key" translatable="false">AIzaSyDqvjPj18uoo4DgyFEey0dCMhV2UQhmkAI</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="network_avail_title">No Internet Connection</string>
+    <string name="network_avail_msg">You are not connected to the internet. Please enable your internet connection.</string>
+</resources>
